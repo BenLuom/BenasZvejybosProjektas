@@ -1,10 +1,8 @@
 <?php
 
-<<<<<<< HEAD
+
 use App\Http\Controllers\ProfileController;
-=======
->>>>>>> 6bc32d71911f2ceeb2ca843b073aba3052ec8d61
-use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
