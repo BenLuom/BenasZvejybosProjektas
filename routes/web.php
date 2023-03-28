@@ -18,7 +18,6 @@ use App\Http\Controllers\ProfileController;
 Route::get('/', function () {
     return view('welcome');
 });
-<<<<<<< HEAD
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -35,5 +34,3 @@ Auth::routes();
 
 require __DIR__.'/auth.php';
 
-=======
->>>>>>> 6bc32d71911f2ceeb2ca843b073aba3052ec8d61
