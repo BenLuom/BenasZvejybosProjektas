@@ -327,29 +327,31 @@
                         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                                    2023-11-08 12:00 h
+                                    2023-12-30 12:00 h
                                     <br />
                                     <h1>Informacija:</h1>
                                     <br />
-                                    Oro temperatūra:
+                                    Oro temperatūra: 8.8 °C
                                     <br />
-                                    Vėjo greitis:
+                                    Vėjo greitis: 3 m/s
                                     <br />
-                                    Vėjo kryptis:
+                                    Vėjo kryptis: Iš pietvakarių
                                     <br />
-                                    Debesuotumas:
+                                    Debesuotumas: 100%
                                     <br />
-                                    Atmosferos slėgis:
+                                    Atmosferos slėgis: 1011 hPa
                                     <br />
-                                    Oro drėgnis:
+                                    Oro drėgnis: 87%
                                     <br />
-                                    Mėnulio fazė:
-                                    <br />
-                                    <br />
-                                    <h1>Žuvies kibimas: </h1>
+                                    Mėnulio fazė: Delčia
                                     <br />
                                     <br />
-
+                                    <h1>Žuvies kibimas: Geras</h1>
+                                    <br />
+                                    <br />
+                                    Apie Ešerius:
+                                    Geriausiai kimba: ryte ir vakare, o esant apsiniaukusiam orui ar lyjant - visą dieną. Ešiariai gaudomi vandens telkiniuose, kur akmenuotas dugnas, prie statesnių krantų, vandens augalų, kerplėšų, augalų, duobėse
+                                    (ypač vėlyvą rudenį ir žiemos pradžioje), duburiuose. Sraunumų ešeriai vengia. Nustatyti žuvų buvimo vietą nesunku.
 
 
                                 </div>
