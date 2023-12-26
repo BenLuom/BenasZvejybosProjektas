@@ -1,8 +1,8 @@
 <?php
 
-
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
-
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,8 +29,16 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+require __DIR__.'/auth.php';
+
 Route::resource('categories', \App\Http\Controllers\CategoryController::class);
+
+Route::resource('miestai', \App\Http\Controllers\MiestasController::class);
+
+Route::resource('fazes', \App\Http\Controllers\FazeController::class);
+
+Route::resource('orai', \App\Http\Controllers\OrasController::class);
+
 Auth::routes();
 
-require __DIR__.'/auth.php';
 
