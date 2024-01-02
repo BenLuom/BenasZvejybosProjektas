@@ -20,4 +20,8 @@ class PostController extends Controller
 
         dd($jsonData);
     }
+    public function FormSubmit(Request $request)
+    {
+        printForm($request->input());
+    }
 }
