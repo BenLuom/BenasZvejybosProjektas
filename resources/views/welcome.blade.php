@@ -276,7 +276,7 @@
                                     <h1>Data:</h1>
 
                                     <form action="/action_page.php">
-                                        <input type="date" id="birthday" name="birthday">
+                                        <input type="date" id="date" name="date">
                                     </form>
 
                                     </body>
@@ -312,9 +312,9 @@
                                         </select>
                                     </form>
                                     <br /><br />
-                                    <button type="$submit" class="inline-flex items-center px-4 py-2 bg-gray-800 dark:bg-gray-200 border border-transparent rounded-md font-semibold text-xs text-white dark:text-gray-800 uppercase tracking-widest hover:bg-gray-700 dark:hover:bg-white focus:bg-gray-700 dark:focus:bg-white active:bg-gray-900 dark:active:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 transition ease-in-out duration-150">Žiūrėti rezultatą</button>
+                                    <button onClick="window.location.reload();" class="inline-flex items-center px-4 py-2 bg-gray-800 dark:bg-gray-200 border border-transparent rounded-md font-semibold text-xs text-white dark:text-gray-800 uppercase tracking-widest hover:bg-gray-700 dark:hover:bg-white focus:bg-gray-700 dark:focus:bg-white active:bg-gray-900 dark:active:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 transition ease-in-out duration-150">Žiūrėti rezultatą</button>
                                 </form>
-
+                                <!-- type="$submit" -->
                             </div>
                         </div>
                     </div>
@@ -327,31 +327,62 @@
                         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                                    2023-12-30 12:00 h
                                     <br />
                                     <h1>Informacija:</h1>
                                     <br />
-                                    Oro temperatūra: 8.8 °C
+                                    Oro temperatūra:
+                                    <?php
+                                    $input = array("-12.6 °C", "-9.4 °C", "-8.5 °C", "-7.5 °C", "-7.9 °C");
+                                    $rand_keys = array_rand($input, 2);
+                                    echo $input[$rand_keys[0]] . "\n";
+                                    ?>
                                     <br />
-                                    Vėjo greitis: 3 m/s
+                                    Vėjo greitis:
+                                    <?php
+                                    $input = array("3 m/s", "4 m/s", "5 m/s", "2 m/s", "3 m/s", "6 m/s");
+                                    $rand_keys = array_rand($input, 2);
+                                    echo $input[$rand_keys[0]] . "\n";
+                                    ?>
                                     <br />
-                                    Vėjo kryptis: Iš pietvakarių
+                                    Vėjo kryptis:
+                                    <?php
+                                    $input = array("Iš pietvakarių", "Iš vakarų", "Iš rytų", "Iš pietryčių", "Iš šiaurės vakarų", "Iš šiaurės ritų", "Iš pietų", "Iš šiaurės");
+                                    $rand_keys = array_rand($input, 2);
+                                    echo $input[$rand_keys[0]] . "\n";
+                                    ?>
                                     <br />
-                                    Debesuotumas: 100%
+                                    Debesuotumas:
+                                    <?php
+                                    $input = array("100%", "95%", "97%", "92%", "87%", "65%", "94%", "74", "0");
+                                    $rand_keys = array_rand($input, 2);
+                                    echo $input[$rand_keys[0]] . "\n";
+                                    ?>
                                     <br />
-                                    Atmosferos slėgis: 1011 hPa
+                                    Atmosferos slėgis:
+                                    <?php
+                                    $input = array("1011 hPa", "999 hPa", "1009 hPa", "1014 hPa", "1003 hPa", "1006 hPa", "1012 hPa", "998 hPa", "989 hPa", "1000 hPa", "1015 hPa", "1022 hPa", "1024 hPa", "1025 hPa", "1020 hPa");
+                                    $rand_keys = array_rand($input, 2);
+                                    echo $input[$rand_keys[0]] . "\n";
+                                    ?>
                                     <br />
-                                    Oro drėgnis: 87%
+                                    Oro drėgnis:
+                                    <?php
+                                    $input = array("87%", "89%", "88%", "85%", "84%", "79%", "78%", "77%", "74%", "69%", "71%", "86%", "71%", "65%", "61%");
+                                    $rand_keys = array_rand($input, 2);
+                                    echo $input[$rand_keys[0]] . "\n";
+                                    ?>
                                     <br />
                                     Mėnulio fazė: Delčia
                                     <br />
                                     <br />
-                                    <h1>Žuvies kibimas: Geras</h1>
+                                    <h1>Žuvies kibimas:</h1>
+                                    <?php
+                                    $input = array("Blogas", "Geras", "Labai Geras", "Labai blogas", "Vidutinis");
+                                    $rand_keys = array_rand($input, 2);
+                                    echo $input[$rand_keys[0]] . "\n";
+                                    ?>
                                     <br />
                                     <br />
-                                    Apie Ešerius:
-                                    Geriausiai kimba: ryte ir vakare, o esant apsiniaukusiam orui ar lyjant - visą dieną. Ešiariai gaudomi vandens telkiniuose, kur akmenuotas dugnas, prie statesnių krantų, vandens augalų, kerplėšų, augalų, duobėse
-                                    (ypač vėlyvą rudenį ir žiemos pradžioje), duburiuose. Sraunumų ešeriai vengia. Nustatyti žuvų buvimo vietą nesunku.
 
 
                                 </div>
