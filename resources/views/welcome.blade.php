@@ -383,7 +383,7 @@
                                     <br />
                                     <h1>Žuvies kibimas:</h1>
                                     <?php
-                                    $input = array("Blogas", "Geras", "Labai Geras", "Labai blogas", "Vidutinis");
+                                    $input = array("Blogas", "Geras", "Labai geras", "Labai blogas", "Vidutinis");
                                     $random = array_rand($input, 2);
                                     echo $input[$random[0]] . "\n";
                                     ?>
